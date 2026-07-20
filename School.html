@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>School Management System</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#f4f7fb;
+}
+
+header{
+    background:#0d6efd;
+    color:white;
+    padding:15px 50px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo{
+    font-size:28px;
+    font-weight:bold;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-left:25px;
+    font-weight:bold;
+}
+
+.hero{
+    height:80vh;
+    background:linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)),
+    url("https://images.unsplash.com/photo-1509062522246-3755977927d7?auto=format&fit=crop&w=1600&q=80");
+    background-size:cover;
+    background-position:center;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    color:white;
+    padding:20px;
+}
+
+.hero h1{
+    font-size:55px;
+}
+
+.hero p{
+    font-size:20px;
+    margin:20px 0;
+}
+
+.btn{
+    background:#ffc107;
+    color:black;
+    padding:12px 30px;
+    text-decoration:none;
+    border-radius:5px;
+    font-weight:bold;
+}
+
+section{
+    padding:60px 10%;
+}
+
+h2{
+    text-align:center;
+    margin-bottom:40px;
+    color:#0d6efd;
+}
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:20px;
+}
+
+.card{
+    background:white;
+    padding:25px;
+    border-radius:10px;
+    text-align:center;
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+}
+
+.card h3{
+    color:#0d6efd;
+    margin-bottom:15px;
+}
+
+.stats{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(180px,1fr));
+    gap:20px;
+}
+
+.stat{
+    background:#0d6efd;
+    color:white;
+    padding:30px;
+    border-radius:10px;
+    text-align:center;
+}
+
+.stat h1{
+    font-size:40px;
+}
+
+footer{
+    background:#222;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+</style>
+
+</head>
+<body>
+
+<header>
+
+<div class="logo">🏫 EduManage</div>
+
+<nav>
+<a href="#">Home</a>
+<a href="#">About</a>
+<a href="#">Services</a>
+<a href="#">Students</a>
+<a href="#">Contact</a>
+</nav>
+
+</header>
+
+<section class="hero">
+
+<div>
+<h1>School Management System</h1>
+
+<p>
+Manage students, teachers, attendance, exams, and fees from one simple platform.
+</p>
+
+<a href="#" class="btn">Get Started</a>
+
+</div>
+
+</section>
+
+<section>
+
+<h2>Our Features</h2>
+
+<div class="cards">
+
+<div class="card">
+<h3>👨‍🎓 Student Management</h3>
+<p>Maintain complete student records with ease.</p>
+</div>
+
+<div class="card">
+<h3>👩‍🏫 Teacher Portal</h3>
+<p>Manage teachers, classes, and subjects.</p>
+</div>
+
+<div class="card">
+<h3>📅 Attendance</h3>
+<p>Track daily attendance quickly and accurately.</p>
+</div>
+
+<div class="card">
+<h3>📝 Examination</h3>
+<p>Manage exams, marks, and report cards.</p>
+</div>
+
+<div class="card">
+<h3>💰 Fees</h3>
+<p>Monitor fee collection and payment history.</p>
+</div>
+
+<div class="card">
+<h3>📚 Library</h3>
+<p>Manage books and student borrowing records.</p>
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2>School Statistics</h2>
+
+<div class="stats">
+
+<div class="stat">
+<h1>1500+</h1>
+<p>Students</p>
+</div>
+
+<div class="stat">
+<h1>120</h1>
+<p>Teachers</p>
+</div>
+
+<div class="stat">
+<h1>50</h1>
+<p>Classrooms</p>
+</div>
+
+<div class="stat">
+<h1>98%</h1>
+<p>Attendance</p>
+</div>
+
+</div>
+
+</section>
+
+<section>
+
+<h2>About Us</h2>
+
+<p style="text-align:center;max-width:900px;margin:auto;font-size:18px;line-height:1.8;">
+Our School Management System simplifies academic administration by providing an
+easy-to-use interface for students, teachers, parents, and administrators.
+It improves communication, saves time, and keeps all school records organized
+in one secure place.
+</p>
+
+</section>
+
+<footer>
+
+<p>© 2026 EduManage | School Management System</p>
+
+</footer>
+
+</body>
+</html>
